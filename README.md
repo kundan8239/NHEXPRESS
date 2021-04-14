@@ -2,6 +2,6 @@
 
 Installation Backend:
 
-- Create virtualenvironment : virtualenv -p /usr/bin/python3.6 env
+- Create virtualenvironment : virtualenv -p /usr/local/bin/python3.8 env
 - Run : pip install -r requirements.txt
-- Test using uvicorn test_app:app --reload
+- Run Server : uvicorn app:app --reload
